@@ -1,0 +1,51 @@
+/*Fundamental CPR First Draft*/
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+}
+
+.card{
+    display: flex;
+    flex: 1;
+}
+.card.one {
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 5px;
+}
