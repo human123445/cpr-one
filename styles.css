@@ -74,18 +74,22 @@ a{
 .button {
     width: 130px;
     height: 40px;
-    background-color: rgb(96, 205, 241);
+    background-color: #3882F6;
     font-weight: 900;
 }
 
-.classes-offered {
+.info {
     display: flex;
-    flex: 1;
+    width: min-content;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
-.pic {
-    width: 200px;
+.blended,
+.in-person,
+.group,
+.blank {
+    width: auto;
     height: 200px;
 }
-
-
