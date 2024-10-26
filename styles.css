@@ -1,95 +1,75 @@
-/*Fundamental CPR First Draft*/
-
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
+    font-family: "Roboto", serif;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     min-height: 100vh;
-    font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #1F2937;
+ul {
+    list-style: none;
+}
+
+.hero-wrapper {
+    padding: 10px 20px;
+    background-color: #192937;
 }
 
 .header {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
-    font-size: 18px;
+    display: flex; 
+    align-items: center;
+    margin: 0 200px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-}
-
-h1{
-    font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 
-.links {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 10px;
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
-a{
+.links,
+p {
+    display: flex;
+    font-size: 18px;
+    margin-left: auto;
+    gap: 20px;    
+}
+
+p {
+    color: #F9FAF8;
+}
+
+a {
     text-decoration: none;
     color: #F9FAF8;
-    font-size: 24px;
 }
-
-.breaks {
+.hero {
     display: flex;
-    margin: 30px 350px;
-    justify-content: space-between;
+    margin: 100px 200px;
+    justify-content: space-around;
 }
 
 .intro {
-    width: 800px;
-    font-size: 18px;
-    color: #E5E7EB;
+    width: 500px;
 }
 
-.hands-on {
-    width: auto;
-    height: 300px;
+.landscape {
+    width: 500px;
+    height: auto;
 }
 
 .button {
-    width: 130px;
-    height: 40px;
     background-color: #3882F6;
-    font-weight: 900;
-}
-
-.info {
-    display: flex;
-    width: min-content;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-}
-
-.blended,
-.in-person,
-.group,
-.blank {
-    width: auto;
-    height: 200px;
+    border-radius: 6px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    color: #F9FAF8;
 }
