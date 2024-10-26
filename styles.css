@@ -27,12 +27,6 @@ ul {
     font-weight: 900;
 }
 
-h1 {
-    font-weight: 900;
-    font-size: 48px;
-    color: #F9FAF8;
-}
-
 .links,
 p {
     display: flex;
@@ -51,8 +45,14 @@ a {
 }
 .hero {
     display: flex;
-    margin: 100px 200px;
+    margin: 30px 200px;
     justify-content: space-around;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 .intro {
@@ -72,4 +72,48 @@ a {
     height: 40px;
     font-weight: 600;
     color: #F9FAF8;
+}
+
+.info {
+    text-align: center;
+    margin: 50px 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 30px;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+
+.pic {
+    max-width: 200px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+    border: solid 3px #3882F6;   
+}
+
+.quote {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+}
+
+p.jane,
+p.goodall {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+
 }
