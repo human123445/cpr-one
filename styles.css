@@ -156,3 +156,15 @@ h3 {
     font-weight: 600;
     color: #F9FAF8;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    color: #E5E7Eb;
+    padding: 0 15px;
+}
+
